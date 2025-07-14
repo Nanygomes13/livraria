@@ -24,7 +24,6 @@ function logout() {
   window.location.href = "login.html";
 }
 
-
 function filtrarLivros() {
   const termo = document.getElementById("busca").value.toLowerCase();
   const cards = document.getElementsByClassName("livro");
